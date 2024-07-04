@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tour and Travel Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./image/logo_img1.png" alt="logo pic">
+                </div>
+                <ul>
+                    <div class="btn">
+                        <i class="fas fa-times close-btn"></i>
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="btn">
+                    <i class="fas fa-bars menu-btn"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="slide-container swiper">
+            <div class="slide-content swiper-wrapper">
+                <div class="overlay swiper-slide">
+                    <img src="./image/sigiriya_01.jpg" alt="">
+                    <div class="img-overlay">
+                        <p>Let's Travel Sri Lanka</p>
+                        <h2><span>Discover </span>Sri Lanka</h2>
+                        <h2>Happily</h2>
+                    </div>
+                </div>
+                <div class="overlay swiper-slide">
+                    <img src="./image/yapahuwa_02.jpg" alt="">
+                    <div class="img-overlay">
+                        <p>Let's Travel Sri Lanka</p>
+                        <h2><span>Discover </span>Sri Lanka</h2>
+                        <h2>Happily</h2>
+                    </div>
+                </div>   
+                <div class="overlay swiper-slide">
+                    <img src="./image/colombo_03.jpg" alt="">
+                    <div class="img-overlay">
+                        <p>Let's Travel Sri Lanka</p>
+                        <h2><span>Discover </span>Sri Lanka</h2>
+                        <h2>Happily</h2>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </main>
+
+    <section id="Location-search">
+        <div class="container">
+            <div class="form-wrapper">
+                <form action="#">
+                    <input type="text" placeholder="where to?" class="form-control"/>
+                    <select class="form-control">
+                        <option value="Destination">Destination</option>
+                        <option value="Destination">Sigiriya</option>
+                        <option value="Destination">Galle</option>
+                        <option value="Destination">Anuradhapura</option>
+                        <option value="Destination">Kandy</option>
+                    </select>
+                    <select class="form-control">
+                        <option value="Duration">Duration</option>
+                        <option value="Day Tour">Day Tour</option>
+                        <option value="2-3 Day Tour">2-3 Day Tour</option>
+                        <option value="4-7 Day Tour">4-7 Day Tour</option>
+                        <option value="7+ Days">7+ Days</option>
+                    </select>
+                    <button type="button" class="primary-btn">Search Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content-wrapper">
+                <div class="agency-left-side">
+                    <p class="heading-normal-text">THE BEST TRAVEL DESTINATION IN SRI LANKA</p>
+                    <h2 class="heading">
+                        DISCOVER THE <span>SRI LANKA</span> HAPPILY
+                    </h2>
+                    <p class="lead">
+                        Sri Lanka, an island nation in the Indian Ocean, is a gem of tropical biodiversity and rich cultural heritage, 
+                        making it a premier destination for tourists. Known for its stunning beaches, lush tea plantations, and ancient 
+                        ruins, Sri Lanka offers a diverse range of experiences. 
+                    </p>
+                    <ul>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-ckeck"></i>
+                                <p>Safe Traveling</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-ckeck"></i>
+                                <p>Budget Prices</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons">
+                                <i class="fa fa-ckeck"></i>
+                                <p>Friendly People</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="agency-right-side">
+                    <div class="img">
+                        <img src="./image/ninearch.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="choose-palce">
+        <div class="container">
+            <h2 class="heading">WORLD HOW TO KNOW <span>SRI LANKA</span></h2>
+            <div class="choose-wrapper">
+                <div class="img-left-side">
+                    <div class="lg-img">
+                        <img src="./image/slcricket.jpg" alt="" />
+                        <div class="img-content">
+                            <h2>Sri Lanka Cricket</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-left-side">
+                    <div class="lg-img">
+                        <img src="./image/sltea.jpg" alt="" />
+                        <div class="img-content">
+                            <h2>Ceylon Tea</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-wise-img">
+                <div class="lg-img">
+                    <img src="./image/sldancing.png" alt="" />
+                    <div class="img-content">
+                        <h2>Traditional Dancing</h2>
+                    </div>
+                </div>
+                <div class="lg-img">
+                    <img src="./image/slbeaches.jpg" alt="" />
+                    <div class="img-content">
+                        <h2>Sri Lanka beaches</h2>
+                    </div>
+                </div>
+                <div class="lg-img">
+                    <img src="./image/tourism.jpg" alt="" />
+                    <div class="img-content">
+                        <h2>Sri Lankan Tourism</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top-place">
+        <div class="container">
+            <p class="heading-normal-text">Top Destination</p>
+            <h2 class="headings">POPULAR TRAVEL <span>DESTINATION</span></h2>
+            <div class="top-destination-wrapper swiper2">
+                <div class="swiper-wrapper">
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_galle.jpeg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Galle</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_colombo.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Colombo</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_anurapura.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Anuradhapura</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_ella.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Ella</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_kandy.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Kandy</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_yala.jpeg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Yala</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_sigiriya.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Sigiriya</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel swiper-slide">
+                        <img src="./image/top_jaffna.jpg" alt="" />
+                        <div class="carousel-img-overlay">
+                            <div class="img-content">
+                                <h2><i class="fa fa-location-dot"></i>Jaffna</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="costa-victoria">
+        <div class="video-bg">
+            <video autoplay muted loop preload="auto">
+                <source src="./image/ellaVideo.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="container">
+            <div class="video-content">
+                <h2>Beauti of the Nature</h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper.js"></script>
+
+</body>
+</html>
