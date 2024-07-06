@@ -48,3 +48,32 @@ const swiper2 = new Swiper(".swiper2",{
         },
     },
 });
+
+const swiper3 = new Swiper(".swiper3",{
+    slidesPerView: 3,
+    spaceBetween: 95,
+    slidesPerGroup: 1,
+    Loop: true,
+    fade: true,
+    centerSlide: true,
+    grabCursor: true,
+    loopfillGroupWithBlank: true,
+
+    autoplay: {
+        delay: 5000,
+    },
+
+    speed: 400,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 1,
+        },
+        968: {
+            slidesPerView: 1,
+        },
+    },
+});

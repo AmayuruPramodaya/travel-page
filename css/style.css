@@ -4,7 +4,7 @@
     --primary-color: #1a29ad;
     --white-color: #fff;
     --light-gray-clor: #ddd;
-    --blue-color:
+    --blue-color: #0f2454;
 }
 
 * {
@@ -457,5 +457,167 @@ select {
     left: 50%;
     width: 100%;
     text-align: center;
+    color: var(--white-color);
+}
+
+.video-content h2 {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    color: var(--white-color);
+    font-family: "ubuntu";
+    margin-bottom: 1rem;
+}
+
+.video-content span {
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+}
+
+#travel-service {
+    background: var(--blue-color);
+    padding: 6rem 0;
+}
+
+.service {
+    position: relative;
+}
+
+.service:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.service-img-overlay {
+    width: 100%;
+}
+
+.service-img-content {
+    position: absolute;
+    bottom: 20px;
+}
+
+.service-img-content {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 2rem 1rem;
+    transition: all 0.3s ease-in;
+    transform: translateY(-50%);
+    color: var(--white-color);
+}
+
+.service:hover .service-img-content {
+    transform: translateY(0%);
+}
+
+#expirience {
+    padding: 6rem 0;
+    width: 100%;
+    background: url("../image/yapahuwa_02.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+#expirience .heading {
+    color: var(--white-color);
+}
+
+.expirience-wrapper {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    color: var(--white-color);
+    padding: 2rem 6rem;
+}
+
+.expirience-wrapper i {
+    color: var(--primary-color);
+}
+
+.expirience-wrapper p {
+    text-align: center;
+}
+
+.test-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-img img {
+    width: 20%;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+
+.icons {
+    text-align: center;
+}
+
+.guest {
+    font-size: 0.75rem;
+}
+
+#footer {
+    padding: 2rem;
+    background: var(--blue-color);
+}
+
+.footer-wraper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0;
+    grid-gap: 10rem;
+    color: var(--white-color);
+    margin: 4rem 0;
+}
+
+.about img {
+    width: 30%;
+    object-fit: cover;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons i {
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.about.lead {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links ul li {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.links ul li a {
+    color: var(--white-color);
+}
+
+.footer {
+    border-top: 1px solid var(--light-gray-clor);
+}
+
+.footer p {
     color: var(--white-color);
 }
